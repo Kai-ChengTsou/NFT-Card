@@ -1,0 +1,112 @@
+html{
+    box-sizing: border-box;
+    font-family: "Outfit";
+    font-size: 18px;
+    padding: 0;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+#card{
+    display: block;
+    width: 100%;
+    padding: 25px 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    margin: 0;
+}
+#content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#content h2{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Outfit';
+}
+
+#info{
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+}
+
+
+
+#img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#img{
+    /* border: 1px solid green; */
+    border-radius: 20px;
+}
+#eth{
+    display:flex;
+
+}
+#eth p{
+    margin-top: 0;
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+#time{
+    color:hsl(215, 51%, 70%);
+}
+#number{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    
+}
+
+#eth object{
+    margin-left: 80px;
+    margin-top: 1px;
+}
+
+.attribution{
+    margin-top: 5px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.attribution img{
+    width: 1.6rem;
+    border: 1px solid white;
+    margin-top: 4pxpx;
+    border-radius: 100%;
+}
+.attribution p{
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: white;
+}
+.attribution p span{
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: hsl(215, 51%, 70%);
+    margin-right: 3px;
+}
+
+@media (min-width:600px){
+    #card{
+        margin: 200px auto;
+        width: 320px;
+        height: 550px;
+    }
+}
